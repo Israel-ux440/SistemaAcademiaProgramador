@@ -6,5 +6,15 @@ namespace SistemaAcademiaProgramador.WinApp
         {
             InitializeComponent();
         }
+
+        private void TelaLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
