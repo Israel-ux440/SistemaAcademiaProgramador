@@ -54,7 +54,7 @@
             btnEntrar.FlatStyle = FlatStyle.Flat;
             btnEntrar.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEntrar.ForeColor = Color.White;
-            btnEntrar.Location = new Point(135, 340);
+            btnEntrar.Location = new Point(135, 344);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(230, 60);
             btnEntrar.TabIndex = 1;
@@ -105,7 +105,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(117, 67, 186);
-            ClientSize = new Size(525, 525);
+            ClientSize = new Size(446, 444);
             Controls.Add(textBox1);
             Controls.Add(lblSenha);
             Controls.Add(txtNome);

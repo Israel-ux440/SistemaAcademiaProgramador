@@ -2,7 +2,7 @@ namespace SistemaAcademiaProgramador.WinApp
 {
     public partial class TelaLogin : Form
     {
-        public TelaLogin()
+        public TelaLogin() 
         {
             InitializeComponent();
         }
@@ -14,7 +14,12 @@ namespace SistemaAcademiaProgramador.WinApp
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(
+                "olá mundo!", 
+                "Seja bem-vindo",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+                );
         }
     }
 }
